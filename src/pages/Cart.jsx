@@ -17,10 +17,10 @@ const Cart = () => {
             cartItem.map(item => <Cartitem key={item.id} item={item}/>)
         }
     </div>
-    <div id='total' class="card col-4 p-5" >
-  <div class="card-body">
-    <h5 class="card-title text-center fw-bold">Total Amount</h5>
-    <p class="card-text text-center">${+total}</p>
+    <div id='total' className="card col-4 p-5" >
+  <div className="card-body">
+    <h5 className="card-title text-center fw-bold">Total Amount</h5>
+    <p className="card-text text-center">${+total}</p>
     <button className='btn btn-primary w-100'>Pay Now</button>
   </div>
 </div>
