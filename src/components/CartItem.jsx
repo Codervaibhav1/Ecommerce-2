@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { decrement, increment, remove } from '../features/cartSlice/cartSlice';
 
 
-const Cartitem = ({ item }) => {
+const CartItem = ({ item }) => {
   console.log(item.quantity)
   const dispatch = useDispatch();
 
@@ -40,4 +40,4 @@ const handleRemove = () =>{
   );
 }
 
-export default Cartitem;
+export default CartItem;

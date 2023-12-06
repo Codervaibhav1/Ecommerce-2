@@ -1,6 +1,6 @@
 import React from 'react'
-import Cartitem from '../components/Cartitem'
 import { useSelector } from 'react-redux'
+import CartItem from '../components/Cartitem'
 
 const Cart = () => {
 
@@ -14,7 +14,7 @@ const Cart = () => {
     <div className='row'>
     <div className='col-8'>
         {
-            cartItem.map(item => <Cartitem key={item.id} item={item}/>)
+            cartItem.map(item => <CartItem key={item.id} item={item}/>)
         }
     </div>
     <div id='total' className="card col-4 p-5" >
