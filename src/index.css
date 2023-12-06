@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+body{
+    background-image: url(./assets/back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'DM Sans', sans-serif;
+}
+nav{
+    background-color: #C6E4EC;
+}
+/* #hero-section{
+    background-color:#2C9CDB;
+} */
+#logo{
+    width: 200px;
+}
+#hero{
+    height: 350px;
+}
+#hero-img{
+    height: 600px;
+}
+#image{
+    width: 200px;
+}
+#img-section{
+    height: 200px;
+}
+.load{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 7px solid #ffff;
+    border-top-color: rgb(255, 200, 0);
+    animation: rotate 1s infinite;
+}
+@keyframes rotate {
+    100%{
+        rotate: 360deg;
+    }
+}
+#total{
+    height: 200px;
+}
